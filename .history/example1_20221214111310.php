@@ -6,9 +6,6 @@
 		h1 {
 			color: green;
 		}
-		h2 {
-			color: red;
-		}
 	</style>
 </head>
 

@@ -7,7 +7,7 @@
 			color: green;
 		}
 		h2 {
-			color: red;
+			color: green;
 		}
 	</style>
 </head>

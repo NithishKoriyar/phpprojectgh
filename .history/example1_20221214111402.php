@@ -6,8 +6,8 @@
 		h1 {
 			color: green;
 		}
-		h2 {
-			color: red;
+		h1 {
+			color: green;
 		}
 	</style>
 </head>

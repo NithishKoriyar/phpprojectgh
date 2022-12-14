@@ -6,9 +6,6 @@
 		h1 {
 			color: green;
 		}
-		h2 {
-			color: red;
-		}
 	</style>
 </head>
 
@@ -21,12 +18,9 @@
             echo "This is PHP code inside htm<br>";      
 			?>	
 		</h2>
-		<br><br>
-		<h2>Welcome To hello world</h2>
-		<h1>
-			<?php
+		<?php
         echo 'Explore, learn and grow.'
-        ?></h1>
+        ?>
 	</center>
 </body>
 
