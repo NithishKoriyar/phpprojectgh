@@ -1,5 +1,13 @@
 <?php
-    $names = ['Jhon', 'Rock','SKull', 'Leo'];
+    $names = [ <?php
+    if($name > 3){
+        $class = "more-names";
+        echo $class;
+        }else{
+        $class = "some-names";
+        echo $class;
+        }
+?>];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,13 +29,23 @@
     </style>
 </head>
 <body class="">
+<?php
+    if(count($names) > 3){
+        $class = "more-names";
+        //echo $class;
+        }else{
+        $class = "some-names";
+        //echo $class;
+        }
+?>
     <h1>Names</h1>
-    <ul class="<?= count($names) > 3 ? 'more-names' : 'some-names' ?>">
+    <ul class="<?php echo $class;/*count($names) > 3 ? 'more-names' : 'some-names'*/ ?>">
         <?php foreach($names as $name) { ?>
         
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+   
     
 </body>
 </html>

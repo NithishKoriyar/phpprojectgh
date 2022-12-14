@@ -1,5 +1,5 @@
 <?php
-    $names = ['Jhon', 'Rock','SKull', 'Leo'];
+    $names = ['Jhon', 'Rock', 'Nithish', 'Abhi'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,12 +11,11 @@
     <style>
 
         .more-names{
-            background-color: grey;
+            background-color: red;
         }
         .some-names{
-            background-color: yellow;
+            background-color: green;
         }
-        
 
     </style>
 </head>

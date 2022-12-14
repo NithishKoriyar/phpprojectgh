@@ -10,13 +10,19 @@
     <title>Document</title>
     <style>
 
-        .more-names{
-            background-color: grey;
+        /* .more-names{
+            background-color: red;
         }
         .some-names{
-            background-color: yellow;
+            background-color: green;
+        } */
+        .n{
+            color: red;
         }
-        
+        .m{
+            color: greenyellow;
+        }
+
 
     </style>
 </head>
@@ -28,6 +34,7 @@
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+    H
     
 </body>
 </html>

@@ -28,6 +28,9 @@
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+    <?php
+    if($name >)
+?>
     
 </body>
 </html>

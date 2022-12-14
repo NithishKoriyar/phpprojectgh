@@ -22,12 +22,21 @@
 </head>
 <body class="">
     <h1>Names</h1>
-    <ul class="<?= count($names) > 3 ? 'more-names' : 'some-names' ?>">
+    <ul class="/<?= count($names) > 3 ? 'more-names' : 'some-names' ?>">
         <?php foreach($names as $name) { ?>
         
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+    <?php
+    if($name > 3){
+        $class = "more-names";
+        echo $class;
+        }else{
+        $class = "some-names";
+        echo $class;
+        }
+?>
     
 </body>
 </html>

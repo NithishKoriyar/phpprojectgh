@@ -11,10 +11,10 @@
     <style>
 
         .more-names{
-            background-color: grey;
+            background-color: ;
         }
         .some-names{
-            background-color: yellow;
+            background-color: green;
         }
         
 

@@ -28,6 +28,13 @@
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+    <?php
+    if($name > 3){
+        $class = "more-names";
+        }else{
+            $class ="some-names"
+        }
+?>
     
 </body>
 </html>

@@ -28,6 +28,9 @@
           <li><?= $name ?></li>
         <?php } ?>
     </ul>
+    <?php
+    $names = ['Jhon', 'Rock','SKull', 'Leo'];
+?>
     
 </body>
 </html>
