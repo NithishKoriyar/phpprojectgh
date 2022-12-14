@@ -15,8 +15,7 @@
 
 		<h2>
 			<?php
-            echo "This is PHP code inside html";
-            echo "Check out";
+			echo "This is PHP code inside html"
 			?>
 		</h2>
 	</center>
