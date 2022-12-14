@@ -15,7 +15,8 @@
 
 		<h2>
 			<?php
-            echo "This is PHP code inside htm<br>";      
+            echo "This is PHP code inside htm<br>";
+            
 			?>
 		</h2>
 	</center>
